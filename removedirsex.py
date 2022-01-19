@@ -1,9 +1,9 @@
-#rmdirex.py remove a folder
+#removedirsex.py
 import os
 try:
-	os.rmdir("D:\KVR-HYD") # this is path where folder is ..
+	os.removedirs("E:\KVR-PYTHON-11AM\FILES")
 	print("Folder Removed--cerify")
 except FileNotFoundError:
-	print("Folder does not exists:")
+	print("Folder does not exists/ Invalid Drive Name:")
 except OSError:
 	print("Folder Must be empty:")
